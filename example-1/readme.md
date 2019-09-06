@@ -35,6 +35,15 @@ ___
 <p>
 
 ```css
+/* 
+ when container not a block element
+ we just need to apply:
+
+ .container {
+   display: block;
+ }
+*/
+
 .element {
   /* setting element display value to block */
   display: block;
