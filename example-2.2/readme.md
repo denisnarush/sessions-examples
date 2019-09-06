@@ -1,5 +1,5 @@
 ![Example 2.2](https://raw.githubusercontent.com/denisnarush/sessions-examples/master/example-2.2/example-2.2.png)
-### Push block to the right side
+### Push block to the right side. Blocks with 20px gap.
 HTML:
 ```html
 <div class="container">
