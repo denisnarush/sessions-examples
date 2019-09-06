@@ -1,5 +1,5 @@
+![Example 1](https://raw.githubusercontent.com/denisnarush/sessions-examples/master/example-1/example-1.png)
 ### Align block to the right side
-
 HTML:
 ```
 <div class="container">
