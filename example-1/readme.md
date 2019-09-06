@@ -2,14 +2,13 @@
 ### Align block to the right side
 HTML:
 ```html
-<some class="container">
+<div class="container">
   <any class="element"></any>
-</some>
+</div>
 ```
 CSS:
 ```css
 .container {
-  display: block;
   border: 3px dashed rgba(0, 0, 0, .2);
 }
 
@@ -21,7 +20,7 @@ CSS:
 }
 ```
 PRECONDITIONS:
-- `some` can be any tag, representing `container`
+- `div` can be any tag, representing `container`
 - `any` can be any tag, representing `container`'s child `element`
 - `container` has dynamic width
 - `container` has dynamic height
@@ -31,14 +30,31 @@ PRECONDITIONS:
 - don't use extra css selectors
 
 
-<details><summary>SOLUTION</summary>
+<details><summary>SOLUTION 1</summary>
 <p>
 
 ```css
 .element {
-  // setting element display value to block
+  /* setting element display value to block */
   display: block;
-  // can make possibility apply margin from left side to auto
+  /* can make possibility apply margin from left side to auto */
+  margin-left: auto;
+}
+```
+
+</p>
+</details>
+
+<details><summary>SOLUTION 2</summary>
+<p>
+
+```css
+.container {
+  /* setting container display value to flex */
+  display: flex;
+}
+.element {
+  /* can make possibility apply margin from left side to auto */
   margin-left: auto;
 }
 ```
