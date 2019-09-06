@@ -53,6 +53,7 @@ PRECONDITIONS:
   /* setting container display value to flex */
   display: flex;
 }
+
 .element {
   /* can make possibility apply margin from left side to auto */
   margin-left: auto;
