@@ -3,7 +3,7 @@
 HTML:
 ```html
 <div class="container">
-  <div class="block">
+  <div class="block"></div>
 </div>
 ```
 CSS:
