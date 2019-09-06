@@ -1,4 +1,4 @@
-![Example 1](https://raw.githubusercontent.com/denisnarush/sessions-examples/master/example-2.1/example-2.1.png)
+![Example 2.1](https://raw.githubusercontent.com/denisnarush/sessions-examples/master/example-2.1/example-2.1.png)
 ### Push block to the right side
 HTML:
 ```html
