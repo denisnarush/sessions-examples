@@ -34,8 +34,13 @@ PRECONDITIONS:
 <details><summary>SOLUTION</summary>
 <p>
 
-```
-comming soon
+```css
+.element {
+  // setting element display value to block
+  display: block;
+  // can make possibility apply margin from left side to auto
+  margin-left: auto;
+}
 ```
 
 </p>
