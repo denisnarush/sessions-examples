@@ -26,3 +26,14 @@ PRECONDITIONS:
 - block height: any
 - don't use extra html
 - don't use extra css selectors
+
+
+<details><summary>SOLUTION</summary>
+<p>
+
+```
+comming soon
+```
+
+</p>
+</details>
