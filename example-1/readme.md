@@ -36,8 +36,7 @@ ___
 
 ```css
 /* 
- when container not a block element
- we just need to apply:
+ * when container not a block element:
 
  .container {
    display: block;
