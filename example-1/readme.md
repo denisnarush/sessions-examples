@@ -21,7 +21,7 @@ CSS:
 ```
 PRECONDITIONS:
 - container width: any
-- container hegith: any
+- container height: any
 - block width: any
 - block height: any
 - don't use extra html
