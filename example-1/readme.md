@@ -1,13 +1,13 @@
 ![Example 1](https://raw.githubusercontent.com/denisnarush/sessions-examples/master/example-1/example-1.png)
 ### Align block to the right side
 HTML:
-```
+```html
 <div class="container">
   <div class="block">
 </div>
 ```
 CSS:
-```
+```css
 .container {
   border: 3px dashed rgba(0, 0, 0, .2);
 }
