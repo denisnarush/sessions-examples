@@ -2,17 +2,18 @@
 ### Align block to the right side
 HTML:
 ```html
-<div class="container">
-  <div class="block"></div>
-</div>
+<some class="container">
+  <any class="element"></any>
+</some>
 ```
 CSS:
 ```css
 .container {
+  display: block;
   border: 3px dashed rgba(0, 0, 0, .2);
 }
 
-.block {
+.element {
   background-color: #96C6FF;
   border: 3px solid #C2E2FA;
   height: 60px;
@@ -20,6 +21,8 @@ CSS:
 }
 ```
 PRECONDITIONS:
+- `some` can be any tag, representing `container`
+- `any` can be any tag, representing `container`'s child `element`
 - container width: any
 - container height: any
 - block width: any
