@@ -23,10 +23,10 @@ CSS:
 PRECONDITIONS:
 - `some` can be any tag, representing `container`
 - `any` can be any tag, representing `container`'s child `element`
-- container width: any
-- container height: any
-- block width: any
-- block height: any
+- `container` has dynamic width
+- `container` has dynamic height
+- `element` has some width which can depend on his content or can have fixed value
+- `element` has dynamic height
 - don't use extra html
 - don't use extra css selectors
 
