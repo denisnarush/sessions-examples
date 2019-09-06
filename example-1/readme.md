@@ -29,6 +29,7 @@ PRECONDITIONS:
 - don't use extra html
 - don't use extra css selectors
 
+___
 
 <details><summary>SOLUTION 1</summary>
 <p>
