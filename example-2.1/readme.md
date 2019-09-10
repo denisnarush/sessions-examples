@@ -3,9 +3,9 @@
 HTML:
 ```html
 <div class="container">
-  <div class="block"></div>
-  <div class="block"></div>
-  <div class="block block_side_right"></div>
+  <any class="element"></any>
+  <any class="element"></any>
+  <any class="element element_side_right"></any>
 </div>
 ```
 CSS:
@@ -14,20 +14,43 @@ CSS:
   border: 3px dashed rgba(0, 0, 0, .2);
 }
 
-.block {
+.element {
   background-color: #96C6FF;
   border: 3px solid #C2E2FA;
   height: 60px;
   width: 16.5%;
 }
 
-.block_side_right {
+.element_side_right {
 }
 ```
 PRECONDITIONS:
-- container width: any
-- container height: any
-- block width: any
-- block height: any
+- `div` can be any tag, representing `container`
+- `any` can be any tag, representing `container`'s child `element`
+- `container` has dynamic width
+- `container` has dynamic height
+- `element` has some width which can depend on his content or can have fixed value
+- `element` has dynamic height
 - don't use extra html
 - don't use extra css selectors
+
+___
+
+<details><summary>SOLUTION</summary>
+<p>
+
+```css
+.container {
+  /* setting container display value to flex */
+  display: flex;
+}
+
+.element_side_right {
+  /* can make possibility apply margin from left side to auto */
+  margin-left: auto;
+}
+```
+
+</p>
+</details>
+
