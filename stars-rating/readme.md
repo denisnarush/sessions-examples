@@ -30,7 +30,7 @@ CSS:
   font-size: 0;
 }
 
-input[id]{
+input{
   display: none;
 }
 
