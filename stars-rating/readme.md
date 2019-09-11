@@ -1,3 +1,4 @@
+![5 Stars rating](https://raw.githubusercontent.com/denisnarush/sessions-examples/master/stars-rating/stars-rating.png)
 ### 5 Stars rating
 PRECONDITIONS:
 - do not use JavaScript code
