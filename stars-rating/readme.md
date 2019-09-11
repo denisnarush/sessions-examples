@@ -36,8 +36,6 @@ input{
 
 label,
 input{
-  border-radius: 700px;
-
   display: inline-block;
   vertical-align: middle;
 
