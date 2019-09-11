@@ -8,6 +8,7 @@ ___
 <details><summary>SOLUTION - IE7+</summary>
 <p>
 
+HTML:
 ```html
 <div class="rating">
   <input type="radio" id="rating12_1" name="rating12" value="1">
@@ -22,6 +23,7 @@ ___
   <label for="rating12_5"></label>
 </div>
 ```
+CSS:
 ```css
 
 .rating{
@@ -64,6 +66,7 @@ input:checked + label ~ label{
 <details><summary>SOLUTION - Modern</summary>
 <p>
 
+HTML:
 ```html
 <div class="rating">
   <input type="radio" name="starts">
@@ -73,6 +76,7 @@ input:checked + label ~ label{
   <input type="radio" name="starts">
 </div>
 ```
+CSS:
 ```css
 .rating{
   display: flex;
