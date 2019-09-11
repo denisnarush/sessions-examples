@@ -2,7 +2,7 @@
 ### 5 Stars rating
 PRECONDITIONS:
 - do not use JavaScript code
-- less html code is greate
+- less HTML code is greate
 
 ___
 
